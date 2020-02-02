@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root_view_login_activity"
+    style="@style/MatchParent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/color_accent">
+
+    <TextView
+        style="@style/MatchWidth"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:text="@string/text_welcoming_message" />
+
+    <EditText
+        android:id="@+id/user_login"
+        style="@style/MatchWidth"
+        android:hint="@string/hint_user_login"
+        android:paddingTop="@dimen/padding_top"
+        android:singleLine="true"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/user_full_name"
+        style="@style/MatchWidth"
+        android:hint="@string/hint_user_full_name"
+        android:paddingTop="@dimen/padding_top"
+        android:singleLine="true"
+        android:textSize="16sp" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logo_chochochip"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textColor="@color/color_primary"
+        android:gravity="center"
+        />
+<!--    <EditText-->
+<!--        android:id="@+id/login_user"-->
+<!--        style="@style/MatchWidth"-->
+<!--        android:hint="login"-->
+<!--        android:paddingTop="@dimen/padding_top"-->
+<!--        android:singleLine="true"-->
+<!--        android:textSize="16sp" />-->
+
+<!--    <EditText-->
+<!--        android:id="@+id/password"-->
+<!--        style="@style/MatchWidth"-->
+<!--        android:hint="password"-->
+<!--        android:paddingTop="@dimen/padding_top"-->
+<!--        android:singleLine="true"-->
+<!--        android:inputType="textPassword"-->
+<!--        android:textSize="16sp" />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/button_login"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Login"-->
+<!--        android:textSize="16sp"-->
+<!--        />-->
+</LinearLayout>
